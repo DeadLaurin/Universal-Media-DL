@@ -27,7 +27,7 @@ Universal Downloader is a **batch downloading tool** primarily for **Pinterest**
 2. Build and start the container:
    ```sh
    docker build -t universal-downloader .
-   docker run -d -p 5000:5000 -v /path/to/your/downloads:/app/downloads --name universal-downloader
+   docker run -d -p 5000:5000 -v /path/to/your/downloads:/app/downloads --name universal-downloader universal-downloader
    ```
 3. Open your browser and visit:
    ```sh
